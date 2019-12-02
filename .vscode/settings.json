@@ -1,0 +1,12 @@
+{
+	"search.exclude": {
+		"**/node_modules": false,
+		"**/bower_components": true
+	},
+	"javascript.validate.enable": true,
+	"eslint.validate": ["javascript", "javascriptreact", "html"],
+	"editor.formatOnSave": true,
+	"files.associations": {
+		"*.js": "javascriptreact"
+	}
+}

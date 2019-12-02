@@ -1,0 +1,74 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 28/05/2018 14:24
+  	*/
+
+    @font-face {
+      font-family: "Flaticon3";
+      src: url("./Flaticon3.eot");
+      src: url("./Flaticon3.eot?#iefix") format("embedded-opentype"),
+           url("./Flaticon3.woff") format("woff"),
+           url("./Flaticon3.ttf") format("truetype"),
+           url("./Flaticon3.svg#Flaticon") format("svg");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      @font-face {
+        font-family: "Flaticon3";
+        src: url("./Flaticon2.svg#Flaticon") format("svg");
+      }
+    }
+
+    [class^="flaticon3-"]:before, [class*=" flaticon3-"]:before,
+    [class^="flaticon3-"]:after, [class*=" flaticon3-"]:after {   
+      font-family: Flaticon;
+            font-size: 20px;
+    font-style: normal;
+    margin-left: 20px;
+    }
+
+    .flaticon3-user:before { content: "\f100"; }
+    .flaticon3-calendar:before { content: "\f101"; }
+    .flaticon3-password:before { content: "\f102"; }
+    .flaticon3-emoticon-square-smiling-face-with-closed-eyes:before { content: "\f103"; }
+    .flaticon3-lock:before { content: "\f104"; }
+    .flaticon3-technology-1:before { content: "\f105"; }
+    .flaticon3-time:before { content: "\f106"; }
+    .flaticon3-error-1:before { content: "\f107"; }
+    .flaticon3-tick-inside-circle:before { content: "\f108"; }
+    .flaticon3-computer:before { content: "\f109"; }
+    .flaticon3-error-404:before { content: "\f10a"; }
+    .flaticon3-nature:before { content: "\f10b"; }
+    .flaticon3-travel-10:before { content: "\f10c"; }
+    .flaticon3-travel-9:before { content: "\f10d"; }
+    .flaticon3-travel-8:before { content: "\f10e"; }
+    .flaticon3-technology:before { content: "\f10f"; }
+    .flaticon3-transport-8:before { content: "\f110"; }
+    .flaticon3-travel-7:before { content: "\f111"; }
+    .flaticon3-transport-7:before { content: "\f112"; }
+    .flaticon3-food:before { content: "\f113"; }
+    .flaticon3-travel-6:before { content: "\f114"; }
+    .flaticon3-travel-5:before { content: "\f115"; }
+    .flaticon3-transport-6:before { content: "\f116"; }
+    .flaticon3-travel-4:before { content: "\f117"; }
+    .flaticon3-travel-3:before { content: "\f118"; }
+    .flaticon3-travel-2:before { content: "\f119"; }
+    .flaticon3-transport-5:before { content: "\f11a"; }
+    .flaticon3-travel-1:before { content: "\f11b"; }
+    .flaticon3-travel:before { content: "\f11c"; }
+    .flaticon3-transport-4:before { content: "\f11d"; }
+    .flaticon3-transport-3:before { content: "\f11e"; }
+    .flaticon3-transport-2:before { content: "\f11f"; }
+    .flaticon3-transport-1:before { content: "\f120"; }
+    .flaticon3-transport:before { content: "\f121"; }
+    .flaticon3-departure:before { content: "\f122"; }
+    .flaticon3-departures:before { content: "\f123"; }
+    .flaticon3-ticket-1:before { content: "\f124"; }
+    .flaticon3-ticket:before { content: "\f125"; }
+    .flaticon3-nurse:before { content: "\f126"; }
+    .flaticon3-first-aid-case:before { content: "\f127"; }
+    .flaticon3-car:before { content: "\f128"; }
+    .flaticon3-coffee:before { content: "\f129"; }
+    .flaticon3-moon:before { content: "\f12a"; }

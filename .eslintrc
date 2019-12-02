@@ -1,0 +1,47 @@
+{
+	"parser": "babel-eslint",
+
+	"extends": [
+		"airbnb",
+		"prettier",
+		"prettier/flowtype",
+		"prettier/react",
+		"prettier/standard",
+		"plugin:react-with-styles/recommended"
+	],
+
+	"plugins": ["react-with-styles", "prettier", "react", "jsx-a11y", "import"],
+
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true,
+		"jest": true
+	},
+
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"defaultParams": true
+		}
+	},
+
+	"rules": {
+		"no-mixed-operators": [2, { "allowSamePrecedence": true }],
+		"prettier/prettier": "warn",
+		"jsx-a11y/click-events-have-key-events": 1,
+		"jsx-a11y/href-no-hash": 0,
+		"react/sort-comp": 0,
+		"linebreak-style": 0,
+		"react/jsx-filename-extension": 0,
+		"react/no-did-mount-set-state": 0,
+		"react-with-styles/no-unused-styles": 0,
+		"no-nested-ternary": 0,
+		"no-underscore-dangle": [2, { "allowAfterThis": true }]
+	},
+
+	"settings": {
+		"propWrapperFunctions": ["forbidExtraProps", "exact", "Object.freeze"]
+	}
+}

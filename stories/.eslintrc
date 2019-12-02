@@ -1,0 +1,11 @@
+{
+	"rules": {
+		"react/no-array-index-key": 0,
+		"import/no-extraneous-dependencies": [
+			2,
+			{
+				"devDependencies": true
+			}
+		]
+	}
+}
